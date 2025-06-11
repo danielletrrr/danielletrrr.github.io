@@ -4,24 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Danielle - Desenvolvedora Backend</title>
+
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Devicons CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+
   <style>
     body {
-      background-color: #f8f9fa;
-      padding: 2rem;
       font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
     }
-    .hero {
-      text-align: center;
-      padding: 3rem 1rem;
-    }
+
     .hero h1 {
       font-size: 2.5rem;
-      margin-bottom: 1rem;
     }
-    .section {
-      margin-top: 3rem;
+
+    .skills i {
+      font-size: 4em;
+      color: #343a40;
     }
+
     footer {
       margin-top: 4rem;
       text-align: center;
@@ -32,33 +36,43 @@
 </head>
 <body>
 
-  <div class="hero">
-    <h1>Oi, eu sou a Danielle 👋</h1>
-    <p class="lead">Desenvolvedora Backend | Criadora de Sites</p>
-    <a href="https://github.com/danielletrrr" class="btn btn-dark m-2">GitHub</a>
-    <a href="https://www.linkedin.com/in/danielletrrr/" class="btn btn-primary m-2">LinkedIn</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-4" href="#">Danielle Dev</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container my-4">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-4 mb-4">
+        <img src="image.jpg" class="img-fluid rounded" alt="Minha foto ou logo" />
+      </div>
+      <div class="col-lg-6">
+        <h1 class="text-center">Sou a Danielle 👩‍💻</h1>
+        <p>
+          Desenvolvedora backend apaixonada por tecnologia e criação de soluções eficientes. Tenho experiência com
+          Python, APIs REST, bancos de dados e hospedagem web. Amo resolver problemas e transformar ideias em sistemas reais.
+        </p>
+      </div>
+    </div>
   </div>
 
-  <div class="container section">
-    <h2>Sobre mim</h2>
-    <p>
-      Sou formada em Análise e Desenvolvimento de Sistemas e atualmente curso Segurança da Informação. Tenho experiência com desenvolvimento backend usando FastAPI, PostgreSQL, Git e integração de APIs REST.
-    </p>
-  </div>
+  <!--
 
-  <div class="container section">
-    <h2>O que eu faço</h2>
-    <ul>
-      <li>Desenvolvimento de APIs robustas e seguras</li>
-      <li>Criação de sites e landing pages sob demanda</li>
-      <li>Integrações com serviços externos e automações</li>
-    </ul>
-  </div>
-
-  <footer>
-    <p>© 2025 Danielle. Todos os direitos reservados.</p>
-  </footer>
-
-</body>
-</html>
 
